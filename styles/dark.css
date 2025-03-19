@@ -9,6 +9,14 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color:rgba(0, 0, 40, 1);
+  --h1-color:rgba(219, 0, 255, 1);
+  --h1-shadow-color:rgba(255, 0, 112, 1);
+  --h2-color:rgba(0, 0, 40, 1);
+  --h2-color-no_bg:rgba(255, 0, 112, 1);
+  --h3-color: rgba(241, 178, 206, 1);
+  --bg-text-color:rgba(255, 0, 112, 1);
+  --font-family:'IBM Plex mono', sans serif;
 }
 
 .theme-dark .page {
