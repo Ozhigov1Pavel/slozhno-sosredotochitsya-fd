@@ -17,10 +17,38 @@
   --h3-color: rgba(53, 52, 48, 1);
   --bg-text-color:rgba(255, 141, 203, 1);
   --font-family:'IBM Plex mono', sans serif;
-  --header-bg-img: url(url(../images/cover-image-dark.png));
+  --header-bg-img: url(../images/cover-image-light.png);
+  --display-decoration: none;
+  --hover-buttom: rgba(50, 49, 45, 0.4);
+
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-
+  --bg-color:rgba(255, 241, 247, 1);
+  --logo-color:rgba(255, 194, 230, 1);
+  --accent-color:rgba(255, 141, 203, 1);
+  --h2-color:rgba(53, 52, 48, 1);
+  --h2-color-no_bg:rgba(53, 52, 48, 1);
+  --h3-color: rgba(53, 52, 48, 1);
+  --bg-text-color:rgba(255, 141, 203, 1);
+  --font-family:'IBM Plex mono', sans serif;
+  --header-bg-img: url(../images/cover-image-light.png);
+  --hover-buttom: rgba(50, 49, 45, 0.4);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color:rgba(255, 241, 247, 1);
+    --logo-color:rgba(255, 194, 230, 1);
+    --accent-color:rgba(255, 141, 203, 1);
+    --h2-color:rgba(53, 52, 48, 1);
+    --h2-color-no_bg:rgba(53, 52, 48, 1);
+    --h3-color: rgba(53, 52, 48, 1);
+    --bg-text-color:rgba(255, 141, 203, 1);
+    --font-family:'IBM Plex mono', sans serif;
+    --header-bg-img: url(../images/cover-image-light.png);
+    --hover-buttom: rgba(50, 49, 45, 0.4);
+  }
+}
+
