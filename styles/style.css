@@ -20,7 +20,7 @@
   align-items: center;
   position: relative;
   margin-block-end: 52px;
-  min-height: 100vh;
+
 }
 
 .decorated-zone::before {
@@ -31,7 +31,7 @@
   border-top: 1px solid var(--h2-color-no_bg);
   border-right: 1px solid var(--h2-color-no_bg);
   position: absolute;
-  top: 0; 
+  top: 0;
   right: 0;
 }
 
@@ -43,7 +43,7 @@
   border-bottom: 1px solid var(--h2-color-no_bg);
   border-left: 1px solid var(--h2-color-no_bg);
   position: absolute;
-  bottom: 0; 
+  bottom: 0;
   left: 0;
 }
 
@@ -135,7 +135,7 @@ border: 1px solid transparent;
   border: 1px solid var(--hover-buttom);
 }
 
-.link_text:focus-visible { 
+.link_text:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--h2-color-no_bg);
 }
@@ -204,7 +204,7 @@ border: 1px solid transparent;
   font-size: var(--font-size);
 }
 
-.main_text{
+.main_text {
   color: var(--h3-color);
   font-size: var(--font-size);
   font-weight: normal;
@@ -239,7 +239,6 @@ justify-content: center;
   min-block-size: 646px;
   position: relative;
   margin-block-start: 50px;
-  min-height: 100vh;
 }
 
 .footer__title {
@@ -268,7 +267,7 @@ justify-content: center;
 
 .logo {
   margin-block-start: 175px;
-  margin-inline-start: -20px; 
+  margin-inline-start: -20px;
 }
 
 .question {
@@ -353,7 +352,6 @@ justify-content: center;
   
 .footer {
   margin-block-start: 80px;
-  min-block-size: 984px;
 }
 
 .footer__title {
@@ -419,10 +417,6 @@ justify-content: center;
 .focus-reducers .card:nth-of-type(3) {
   grid-column: 3;
   grid-row: 2;
-}
-
-.footer {
-  min-block-size: 730px;
 }
 
 .footer__title {
