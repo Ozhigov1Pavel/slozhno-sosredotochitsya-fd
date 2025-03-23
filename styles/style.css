@@ -20,7 +20,7 @@
   align-items: center;
   position: relative;
   margin-block-end: 52px;
-  
+  min-height: 100vh;
 }
 
 .decorated-zone::before {
@@ -239,6 +239,7 @@ justify-content: center;
   min-block-size: 646px;
   position: relative;
   margin-block-start: 50px;
+  min-height: 100vh;
 }
 
 .footer__title {
