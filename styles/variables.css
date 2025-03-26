@@ -3,17 +3,19 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-color: rgba(0, 0, 40, 1);
-  --logo-color: rgba(219, 0, 255, 1);
-  --accent-color: rgba(255, 0, 112, 1);
-  --h2-color: rgba(0, 0, 40, 1);
-  --h2-color-no_bg: rgba(255, 0, 112, 1);
-  --h3-color: rgba(241, 178, 206, 1);
-  --bg-text-color: rgba(255, 0, 112, 1);
+  --bg-color: #0a0a28;
+  --logo-color: #db00ff;
+  --accent-color: #ff0070;
+  --title-color: #0a0a28;
+  --title-accent-color: #ff0070;
+  --text-color-secondary: #f1b2ce;
+  --highlight-bg-color: #ff0070;
+  --hover-buttom: #ff007066;
+  --hover-link:#F1B2CE;
   --font-family: 'IBM Plex mono', sans-serif;
   --font-size: 18px;
   --text-shadow: 2px 2px 0 var(--accent-color);
   --header-bg-img: url(../images/cover-image-dark.png);
   --display-decoration: flex;
-  --hover-buttom: rgba(255, 0, 112, 0.4);
 }
+
