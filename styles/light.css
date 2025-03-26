@@ -22,8 +22,6 @@
   --highlight-bg-color: #ff8dcb;
   --hover-buttom: #32312d66;
   --hover-link:#353430;
-  --text-shadow: 2px 2px 0 var(--accent-color);
-  --font-family: 'IBM Plex mono', sans-serif;
   --header-bg-img: url(../images/cover-image-light.png);
   --display-decoration: none;
 
@@ -40,8 +38,6 @@
     --highlight-bg-color: #ff8dcb;
     --hover-buttom: #32312d66;
     --hover-link:#353430;
-    --text-shadow: 2px 2px 0 var(--accent-color);
-    --font-family: 'IBM Plex mono', sans-serif;
     --header-bg-img: url(../images/cover-image-light.png);
     --display-decoration: none;
   }
