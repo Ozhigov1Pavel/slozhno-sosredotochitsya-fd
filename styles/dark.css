@@ -18,6 +18,8 @@
   --highlight-bg-color: #ff0070;
   --hover-buttom: #ff007066;
   --hover-link:#F1B2CE;
+  --header-bg-img: url(../images/cover-image-dark.png);
+  --display-decoration: flex;
 }
 
 .theme-dark .page {

@@ -187,7 +187,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 51px;
 }
 
 .title-decor {
@@ -232,7 +232,8 @@
 }
 
 .footer {
-  grid-template-columns : minmax(min-content, max-content) 1fr;
+  display: flex;
+  align-items: center;
   justify-content: center;
   min-block-size: 646px;
   position: relative;
@@ -241,8 +242,6 @@
 
 .footer__title {
   color: var(--logo-color);
-  text-align: center;
-  justify-self: center;
   margin-block-start: 0;
 }
 
@@ -260,7 +259,7 @@
 }
 
 .content {
-  gap: 81px;
+  gap: 82px;
 }
 
 .logo {
@@ -346,15 +345,12 @@
 }
   
 .footer {
-  grid-template-rows: repeat(6, 100px) 2fr repeat(4, 95px);
-  margin-block-start: 82px;
+  margin-block-start: 79px;
+  min-block-size: 984px;
 }
 
 .footer__title {
-  grid-row: 5;
   margin-inline-start: 0;
-  justify-self: center;
-  margin-block-start: 44px;
 }
 }
 
@@ -416,14 +412,7 @@
 }
 
 .footer {
-  grid-template-rows: repeat(6, 64px) 2fr repeat(3, 115px);
-  margin-block-start: 82px;
-}
-
-.footer__title {
-  grid-row: 5;
-  margin-inline-start: 0;
-  justify-self: center;
-  margin-block-start: 44px;
+  margin-block-start: 80px;
+  min-block-size: 727px;
 }
 }
